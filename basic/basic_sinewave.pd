@@ -1,15 +1,1 @@
-#N canvas -7 520 958 468 12;
-#X obj 46 20 hsl 162 19 0 127 0 0 empty empty empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
-#X obj 49 121 mtof;
-#X obj 51 193 osc~;
-#X obj 51 248 dac~;
-#X obj 172 143 bng 19 250 50 0 empty empty Graph_Output 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 171 196 metro 100;
-#X obj 171 249 tabwrite~ sine;
-#X connect 0 0 1 0;
-#X connect 1 0 2 0;
-#X connect 2 0 3 0;
-#X connect 2 0 3 1;
-#X connect 2 0 6 0;
-#X connect 4 0 5 0;
-#X connect 5 0 6 0;
+#N canvas 527 492 450 289 12;
